@@ -1,0 +1,164 @@
+/* You can add global styles to this file, and also import other style files */
+
+.marginTopTwo {
+  margin-top: 2%;
+}
+
+.borderBlack {
+  border: 2px solid black;
+}
+
+.marginBottomTwo {
+  margin-bottom: 2%;
+}
+
+.marginRightTwo {
+  margin-right: 2%;
+}
+
+.cursorHand {
+  cursor: pointer;
+}
+
+.paddingOne {
+  padding: 1%;
+}
+
+.colorWhite {
+  color: white;
+}
+
+/* You can add global styles to this file, and also import other style files */
+// .............. TOOLBOX UTILITIES..................
+.cb-H1 {
+  font-size: 2em;
+}
+
+.cb-H2 {
+  font-size: 1.5em;
+}
+
+.cb-H3 {
+  font-size: 1.3em;
+}
+
+.toolbox-main {
+  position: absolute;
+  display: flex;
+  background-color: white;
+  right: 0px;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+// for background colors
+.cb-background-red {
+  background-color: #f78080;
+}
+
+.cb-background-green {
+  background-color: #94e794;
+}
+
+.cb-background-yellow {
+  background-color: #f6ec89;
+}
+
+.cb-background-blue {
+  background-color: #96c7f7;
+}
+
+// code snippet style
+.cb-code-snippet {
+  background-color: black;
+  color: #e6db74;
+  font-family: "Inconsolata", monospace;
+}
+
+.cb-toolbox {
+  padding-left: 10px;
+}
+
+// Fonts
+.monospace-font {
+  font-family: 'Courier Prime', monospace;
+}
+.playfair-font {
+  font-family: 'Playfair Display', serif;
+}
+
+.kalam-font {
+  font-family: 'Kalam', cursive;
+}
+
+// Board
+.cb-more-toolbox {
+  position: relative;
+  display: none;
+}
+
+// ........................DASHBOARD...........................
+.folder-box {
+  padding: 1rem 1rem;
+  background: #53A453;
+  background: #ee9ca7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+  border-radius: .5rem;
+  transition: 0.4s;
+  margin:10px;
+  margin-left: 0px;
+
+  .folder-title {
+    font-family: Questrial,sans-serif;
+    margin-top: 3rem;
+  }
+
+  .folder-discription {
+    font-family: Questrial,sans-serif;
+  }
+}
+
+.new-folder {
+  text-align: center;
+  background: rgb(241, 241, 241);
+  padding: 1rem 1rem;
+  border-radius: .5rem;
+  transition: 0.4s;
+  margin:10px;
+  margin-left: 0px;
+}
+
+.folder-box:hover {
+  transform:translateY(-.2rem);
+}
+
+.bd-grid {
+  display: grid;
+}
+.cbff-container {
+  grid-template-columns: repeat(3,1fr);
+}
+
+@media (max-width: 768px) {
+  .cbff-container {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+@media (max-width: 576px) {
+  .cbff-container {
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+
+.error-label {
+  display: none;
+}
+
+.delete-popup {
+  float: right; 
+  // padding-left:30px; 
+  margin-right: 5px; 
+  // background-color:white; 
+  display:none;
+}
